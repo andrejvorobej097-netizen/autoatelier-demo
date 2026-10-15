@@ -1,0 +1,17 @@
+# Local settings and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Dependencies and temporary files
+node_modules/
+__pycache__/
+*.pyc
+.DS_Store
+*.log
+
+# Local screenshots and deployment archives
+preview.png
+*.tar.gz
